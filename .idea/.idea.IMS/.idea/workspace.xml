@@ -10,12 +10,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72919964-e4da-4cd6-805c-a0acd170ae5e" name="Changes" comment="IDE Settings">
-      <change afterPath="$PROJECT_DIR$/IMS.WebApp/Controls/InventoryListComponent.razor" afterDir="false" />
+    <list default="true" id="72919964-e4da-4cd6-805c-a0acd170ae5e" name="Changes" comment="Inventory Listing">
+      <change afterPath="$PROJECT_DIR$/IMS.UseCases/Inventories/AddInventoryUseCase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMS.UseCases/Inventories/EditInventoryUseCase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMS.UseCases/Inventories/Interfaces/IAddInventoryUseCase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMS.UseCases/Inventories/Interfaces/IEditInventoryUseCase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMS.UseCases/Inventories/Interfaces/IViewInventoryByIdUseCase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMS.UseCases/Inventories/ViewInventoryByIdUseCase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMS.WebApp/Controls/Inventories/InventoryListItemComponent.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMS.WebApp/Pages/Inventories/AddInventory.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMS.WebApp/Pages/Inventories/EditInventory.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IMS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IMS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMS.CoreBusiness/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMS.CoreBusiness/Inventory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMS.Plugins.InMemory/InventoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMS.Plugins.InMemory/InventoryRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMS.UseCases/Repositories/IInventoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMS.UseCases/Repositories/IInventoryRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMS.WebApp/Controls/InventoryListComponent.razor" beforeDir="false" afterPath="$PROJECT_DIR$/IMS.WebApp/Controls/Inventories/InventoryListComponent.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMS.WebApp/Controls/SearchInventoryComponent.razor" beforeDir="false" afterPath="$PROJECT_DIR$/IMS.WebApp/Controls/Inventories/SearchInventoryComponent.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMS.WebApp/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/IMS.WebApp/Pages/Index.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMS.WebApp/Pages/Inventories/InventoryList.razor" beforeDir="false" afterPath="$PROJECT_DIR$/IMS.WebApp/Pages/Inventories/InventoryList.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMS.WebApp/Shared/SurveyPrompt.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMS.WebApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMS.WebApp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMS.WebApp/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/IMS.WebApp/_Imports.razor" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +41,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/IMS.Plugins.InMemory/InventoryRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/SourceRepos/BlazorSamples/IMS/IMS.WebApp/Pages/Inventories/InventoryList.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
@@ -139,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693066307163</updated>
-      <workItem from="1693066312597" duration="13958000" />
+      <workItem from="1693066312597" duration="21824000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -165,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693167454018</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Inventory Listing">
+      <option name="closed" value="true" />
+      <created>1693169036599</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693169036599</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +211,54 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Blazor Components" />
     <MESSAGE value="IDE Settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="IDE Settings" />
+    <MESSAGE value="Inventory Listing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inventory Listing" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/IMS.WebApp/Pages/Inventories/AddInventory.razor</url>
+          <line>36</line>
+          <properties documentPath="C:\SourceRepos\BlazorSamples\IMS\IMS.WebApp\Pages\Inventories\AddInventory.razor" initialLine="35" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/IMS.WebApp/Controls/Inventories/InventoryListItemComponent.razor</url>
+          <line>17</line>
+          <properties documentPath="C:\SourceRepos\BlazorSamples\IMS\IMS.WebApp\Controls\InventoryListItemComponent.razor" initialLine="17" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/IMS.Plugins.InMemory/InventoryRepository.cs</url>
+          <line>11</line>
+          <properties documentPath="C:\SourceRepos\BlazorSamples\IMS\IMS.Plugins.InMemory\InventoryRepository.cs" initialLine="11" containingFunctionPresentation="Constructor 'InventoryRepository'">
+            <startOffsets>
+              <option value="248" />
+            </startOffsets>
+            <endOffsets>
+              <option value="877" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

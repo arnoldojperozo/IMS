@@ -3,6 +3,7 @@
 @using IMS.UseCases.Inventories.Interfaces;
 @using IMS.CoreBusiness
 @inject IViewInventoriesByNameUseCase ViewInventoriesByNameUseCase
+@inject IEditInventoryUseCase EditInventoryUseCase
 
 <PageTitle></PageTitle>
 
@@ -21,6 +22,7 @@
 
     protected override async Task OnInitializedAsync()
     {
+        var inventory = 
         _inventories = (await ViewInventoriesByNameUseCase.ExecuteAsync()).ToList();
     }
 
