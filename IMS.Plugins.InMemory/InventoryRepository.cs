@@ -12,11 +12,11 @@ public class InventoryRepository : IInventoryRepository
         _inventories = new List<Inventory>
         {
             new() { InventoryId = 1, InventoryName = "Bike Seat", Price = 10, Quantity = 2 },
-            new() { InventoryId = 2, InventoryName = "Bike Body", Price = 10, Quantity = 2 },
-            new() { InventoryId = 3, InventoryName = "Bike Wheels", Price = 10, Quantity = 2 },
-            new() { InventoryId = 4, InventoryName = "Bike Brakes", Price = 10, Quantity = 2 },
-            new() { InventoryId = 5, InventoryName = "Bike Pedals", Price = 10, Quantity = 2 },
-            new() { InventoryId = 6, InventoryName = "Bike Brakes", Price = 10, Quantity = 2 }
+            new() { InventoryId = 2, InventoryName = "Bike Body", Price = 70, Quantity = 4 },
+            new() { InventoryId = 3, InventoryName = "Bike Wheels", Price = 40, Quantity = 7 },
+            new() { InventoryId = 4, InventoryName = "Bike Brakes", Price = 20, Quantity = 3 },
+            new() { InventoryId = 5, InventoryName = "Bike Pedals", Price = 440, Quantity = 92 },
+            new() { InventoryId = 6, InventoryName = "Bike Brakes", Price = 50, Quantity = 34 }
         };
     }
     

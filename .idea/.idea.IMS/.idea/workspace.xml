@@ -10,7 +10,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72919964-e4da-4cd6-805c-a0acd170ae5e" name="Changes" comment="Initial Commit" />
+    <list default="true" id="72919964-e4da-4cd6-805c-a0acd170ae5e" name="Changes" comment="IDE Settings">
+      <change afterPath="$PROJECT_DIR$/IMS.WebApp/Controls/InventoryListComponent.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IMS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IMS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMS.Plugins.InMemory/InventoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMS.Plugins.InMemory/InventoryRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMS.WebApp/Pages/Inventories/InventoryList.razor" beforeDir="false" afterPath="$PROJECT_DIR$/IMS.WebApp/Pages/Inventories/InventoryList.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMS.WebApp/Shared/SurveyPrompt.razor" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,21 +29,28 @@
     <setting file="file://$PROJECT_DIR$/IMS.Plugins.InMemory/InventoryRepository.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="SWEA" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 5
 }]]></component>
   <component name="ProjectId" id="2UWriZUad4P6QGENXwvRiTpwP52" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -126,7 +139,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693066307163</updated>
-      <workItem from="1693066312597" duration="12096000" />
+      <workItem from="1693066312597" duration="13958000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -136,7 +149,23 @@
       <option name="project" value="LOCAL" />
       <updated>1693166927267</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Blazor Components">
+      <option name="closed" value="true" />
+      <created>1693167325641</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693167325642</updated>
+    </task>
+    <task id="LOCAL-00003" summary="IDE Settings">
+      <option name="closed" value="true" />
+      <created>1693167454018</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693167454018</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +186,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Blazor Components" />
+    <MESSAGE value="IDE Settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="IDE Settings" />
   </component>
 </project>
